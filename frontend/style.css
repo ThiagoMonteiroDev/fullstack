@@ -1,0 +1,110 @@
+body { 
+  font-family: 'Verdana', sans-serif; /* Mudada para Verdana */
+  margin: 0;
+  padding: 0;
+  background-color: #e9eff1; /* Alterada a cor de fundo */
+}
+
+nav {
+  background: #3498db; /* Alterada a cor do nav */
+  color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Aumento da sombra */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  cursor: pointer;
+  font-size: 26px; /* Aumento do tamanho da fonte */
+}
+
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 25px; /* Reduzido o espaço entre links */
+  font-weight: 600; /* Peso da fonte modificado */
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.container {
+  width: 95%;
+  max-width: 900px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 35px; /* Aumento do padding */
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25); /* Aumento da sombra */
+}
+
+h1, h2 {
+  color: #2c3e50; /* Alterada a cor do texto */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3498db; /* Mudança de cor da borda */
+  padding-bottom: 10px;
+}
+
+form {
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 15px;
+  margin-right: 15px;
+  border: 2px solid #3498db; /* Mudança de cor */
+  border-radius: 8px;
+  width: calc(30% - 15px);
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #34495e; /* Alterada a cor do foco */
+  outline: none;
+}
+
+button {
+  padding: 15px 30px; /* Alteração do padding */
+  border: none;
+  border-radius: 8px;
+  background-color: #e67e22;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #d35400;
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #dddddd;
+}
+
+th {
+  background-color: #f2f2f2; /* Mudança na cor de fundo da tabela */
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f7f9fa; /* Alterada a cor do hover */
+}
+
